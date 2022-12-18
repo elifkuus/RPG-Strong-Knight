@@ -1716,6 +1716,7 @@ GameObject:
   - component: {fileID: 8066794465575593912}
   - component: {fileID: 7973826891428436826}
   - component: {fileID: 7927442611802947704}
+  - component: {fileID: 5753381476562609804}
   m_Layer: 0
   m_Name: knigthprefab
   m_TagString: Untagged
@@ -1781,6 +1782,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.9, z: 0.05}
+--- !u!114 &5753381476562609804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8068822166137187560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4e24f95a24c4d4bb4c00f9bc8d5a96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxSpeed: 5
 --- !u!1 &8068839596835535558
 GameObject:
   m_ObjectHideFlags: 0
